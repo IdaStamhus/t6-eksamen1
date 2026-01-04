@@ -263,7 +263,7 @@ section.headergrafik img {
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 650px) {
   .portfolio-grid .baggrundcta {
     grid-template-columns: 1fr;
     gap: 24px;
@@ -427,7 +427,7 @@ section.headergrafik img {
 /************* OM MIG GRID  ***************/
 
 /************* OM MIG STÅR PÆNT PÅ MOBIL  ***************/
-@media (max-width: 520px) {
+@media (max-width: 650px) {
   .ommig-grid {
     display: flex;
     flex-direction: column;
