@@ -173,13 +173,43 @@ section.headergrafik img {
   margin-left: calc(50% - 50vw);
 }
 
-.idastamhus {
+.ida {
   position: absolute;
-  right: 6vw;
-  top: 42%;
+  right: 20vw;
+  top: 28%;
+  transform: translateY(50%);
+  z-index: 3;
+  text-align: left;
+}
+
+.stamhus {
+  position: absolute;
+  right: 5vw;
+  top: 48%;
   transform: translateY(-50%);
   z-index: 3;
-  text-align: right;
+  text-align: left;
+}
+
+@media (max-width: 650px) {
+  .ida {
+    position: absolute;
+    right: 17vw;
+    top: 12%;
+    transform: translateY(50%);
+    z-index: 3;
+    text-align: left;
+  }
+}
+@media (max-width: 650px) {
+  .stamhus {
+    position: absolute;
+    right: 1vw;
+    top: 18%;
+    transform: translateY(50%);
+    z-index: 3;
+    text-align: left;
+  }
 }
 /************* HEADER GRAFIK SPAN  ***************/
 
