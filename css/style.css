@@ -122,17 +122,23 @@ h3 {
   opacity: 1;
   text-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
   text-decoration: underline;
-} 
+}
 
 #temalink1 {
   font-family: "Oswald", "Plus Jakarta Sans", sans-serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 15px;
   color: #000000;
   font-weight: 400;
   display: inline-block;
   text-decoration: none;
   margin-bottom: 10px;
+}
+
+@media (min-width: 1200px) {
+  #temalink1 {
+    font-size: 30px;
+  }
 }
 
 #temalink1 {
